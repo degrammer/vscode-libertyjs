@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const speakerWebviewProvider = new SpeakersWebviewProvider(context.extensionUri)
 	context.subscriptions.push(
 		speakerWebviewProvider.registeredCommand,
-		vscode.window.registerTreeDataProvider('speakersbalah', speakerTreeViewProvider),
+		vscode.window.registerTreeDataProvider('speakers', speakerTreeViewProvider),
 		vscode.window.registerWebviewViewProvider('details', speakerWebviewProvider)
 	)
 }
