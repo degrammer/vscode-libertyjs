@@ -2,7 +2,7 @@
 
 ![Demo](demo.png)
 
-We use [yo][https://www.npmjs.com/package/yo] to start a new extension from scracth.
+We use [yo](https://www.npmjs.com/package/yo) to start a new extension from scracth. Skip this step since we've already initialized this repository with the tool
 
 ```sh
 npx yo .
